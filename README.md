@@ -1,35 +1,90 @@
-# NONO
+# 🌈 Nono - Animated Landing Page
 
-A small interactive HTML project with animated gradient background and simple image/text features.
+A beautiful, responsive landing page featuring smooth animations and modern web design.
 
-## Features
+![Preview](https://img.shields.io/badge/status-active-success) ![GitHub last commit](https://img.shields.io/github/last-commit/BL4ZE68/Nono) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/BL4ZE68/Nono)
 
-- Animated gradient background and ripple title effects.
-- `index.html` includes a UI to upload one or multiple images and add text captions.
-- Each image card has an editable caption (Edit / Save) so you can associate different text with each image.
+## ✨ Features
 
-## Usage
+- 🎨 Smooth gradient background animation
+- ✨ Interactive letter animations with hover effects
+- 📱 Fully responsive design
+- 🚀 Optimized for performance
+- 🎯 Clean and modern UI
+- 🔒 No external dependencies (except Google Fonts)
 
-1. Open `index.html` in your browser (double-click or serve with a static server).
-2. Use the controls to select image(s) and enter text; click **Ajouter** to add to the gallery.
-3. Edit captions per-image using the **Éditer** / **Sauvegarder** buttons.
+## 🚀 Getting Started
 
-## Development
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- (Optional) A local web server for development
 
-- Files:
-  - `index.html` — main UI and logic
+### Installation
 
-To save changes and push:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/BL4ZE68/Nono.git
+   ```
+2. Open `index.html` in your browser
+   - Double-click the file, or
+   - Use a local server: `python -m http.server` and visit `http://localhost:8000`
 
-```powershell
-cd "c:\Users\pc-hp\Desktop\code\Nono"
-git add .
-git commit -m "Update"
-git push
+## 🎨 Customization
+
+Easily customize the colors and animations by modifying the CSS variables in the `:root` selector:
+
+```css
+:root {
+    --primary-color: #00f7ff;
+    --secondary-color: #ff6bff;
+    --bg-start: #1a1a2e;
+    --bg-mid: #0f3460;
+    --bg-end: #533483;
+    --text-color: #ffffff;
+}
 ```
 
-## Notes
+## 📱 Responsive Design
 
-This repository was pushed to GitHub under the account `BL4ZE68`.
+The page is fully responsive and works on all device sizes:
+- Desktop (≥1024px)
+- Tablet (≥768px)
+- Mobile (<768px)
 
-If you want a license or CI, tell me which one and I can add it.
+## 🛠 Development
+
+### Project Structure
+```
+Nono/
+├── index.html     # Main HTML file
+└── README.md     # This file
+```
+
+### Git Commands
+
+```bash
+# Stage changes
+git add .
+
+# Commit changes
+git commit -m "Your commit message"
+
+# Push to remote
+git push origin main
+```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📬 Contact
+
+For any questions or feedback, please open an issue on GitHub.
+
+---
+
+Made with ❤️ by [BL4ZE68](https://github.com/BL4ZE68)
