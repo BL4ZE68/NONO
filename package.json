@@ -1,0 +1,14 @@
+{
+  "name": "nono-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beautiful animated landing page for NONO with a responsive gradient background and playful letter animations.",
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
+

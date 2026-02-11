@@ -31,7 +31,7 @@ A beautiful, responsive landing page featuring smooth animations and modern web 
 
 ## 🎨 Customization
 
-Easily customize the colors and animations by modifying the CSS variables in the `:root` selector:
+Easily customize the colors and animations by modifying the CSS variables in the `:root` selector inside `styles.css`:
 
 ```css
 :root {
@@ -57,7 +57,9 @@ The page is fully responsive and works on all device sizes:
 ```
 Nono/
 ├── index.html     # Main HTML file
-└── README.md     # This file
+├── styles.css     # Main styles (animations, layout, variables)
+├── LICENSE        # MIT license
+└── README.md      # This file
 ```
 
 ### Git Commands
