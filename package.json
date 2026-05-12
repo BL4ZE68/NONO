@@ -1,0 +1,22 @@
+{
+  "name": "nono",
+  "version": "1.0.0",
+  "description": "Nono — A beautiful, responsive photo gallery with slideshow and drag-and-drop upload.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "bugs": {
+    "url": "https://github.com/BL4ZE68/Nono/issues"
+  },
+  "homepage": "https://github.com/BL4ZE68/Nono#readme",
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
