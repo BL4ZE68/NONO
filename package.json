@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nono",
   "version": "1.0.0",
   "description": "Nono — A beautiful, responsive photo gallery with slideshow and drag-and-drop upload.",
@@ -20,3 +21,18 @@
     "vite": "^7.3.0"
   }
 }
+=======
+  "name": "nono-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beautiful animated landing page for NONO with a responsive gradient background and playful letter animations.",
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
+
+>>>>>>> 5019a84b2d3cc84d2af9bad30b5072d0fc5ac48d
